@@ -1,0 +1,62 @@
+# dependencies
+/node_modules
+.pnpm-store/
+/.next/
+/out/
+.swc/
+.vercel/
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# production
+build/
+docs/
+
+# misc
+.DS_Store
+*.pem
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env*.local
+.env*.production
+.env*.development
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Cursor / AI tools
+.cursorrules
+
+# Optional: large static assets if you move them later
+# public/videos/
+# public/images/large/
